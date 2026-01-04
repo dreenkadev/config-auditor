@@ -206,7 +206,7 @@ def print_banner():
 def print_findings(findings: List[Finding]):
     """Print findings"""
     if not findings:
-        print(f"\n{Colors.GREEN}✓ No issues found!{Colors.RESET}")
+        print(f"\n{Colors.GREEN}[OK] No issues found!{Colors.RESET}")
         return
     
     print(f"\n{Colors.BOLD}Findings ({len(findings)}):{Colors.RESET}\n")
